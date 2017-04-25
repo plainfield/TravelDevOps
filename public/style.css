@@ -149,6 +149,7 @@ span.round-tab:hover {
   margin: 0 auto;
   height: 600px;
   padding-top:100px;
+  margin-top:-100px;
   background:url("images/iphone.png") center center no-repeat;
   background-size:contain;
 }
@@ -159,4 +160,6 @@ span.round-tab:hover {
 .iphone-wrap .iphone img{
   width: 100%;
 }
-
+body{
+  padding-bottom:60px;
+} 
