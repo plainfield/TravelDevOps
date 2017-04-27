@@ -14,7 +14,7 @@ $(document).ready(function () {
 
     $(".next-step").click(function (e) {
 
-        var $active = $('.wizard .nav-tabs li.active');
+        var $active = $('.wizard .wizard-inner .nav-tabs li.active');
         $active.next().removeClass('disabled');
         nextTab($active);
 
