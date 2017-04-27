@@ -5,6 +5,7 @@
  <script src="jquery-1.10.2.js"></script>
  <script src="jquery-ui.js"></script>
 <script src="tether.min.js"></script>
+<script src="js/w3data.js"></script>
   <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="css/bootstrap.css">
 <script src="js/bootstrap.min.js"></script>
@@ -57,14 +58,14 @@
                     <li role="presentation" class="disabled">
                         <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Hotel&Airline">
                             <span class="round-tab">
-                                <i class="glyphicon glyphicon-plane"></i>
+                                <i class="glyphicon glyphicon-globe"></i>
                             </span>
                         </a>
                     </li>
                     <li role="presentation" class="disabled">
                         <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Mobile Road Guide">
                             <span class="round-tab">
-                                <i class="glyphicon glyphicon-glass"></i>
+                                <i class="glyphicon glyphicon-phone"></i>
                             </span>
                         </a>
                     </li>
@@ -72,7 +73,7 @@
                     <li role="presentation" class="disabled">
                         <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Expense Reimbursement">
                             <span class="round-tab">
-                                <i class="glyphicon glyphicon-euro"></i>
+                                <i class="glyphicon glyphicon-usd"></i>
                             </span>
                         </a>
                     </li>
@@ -82,23 +83,21 @@
             <form role="form">
                 <div class="tab-content">
                     <div class="tab-pane active" role="tabpanel" id="step1">
-                        <h3>Step 1</h3>
-                        <p>Expense Pre Approval</p>
+                        <h3>Step 1 :Expense Pre Approval</h3> 
+                        <div w3-include-html="step1.html"></div>
                         <ul class="list-inline pull-right">
                             <li><button type="button" class="btn btn-primary next-step">Next step</button></li>
                         </ul>
                     </div>
                     <div class="tab-pane" role="tabpanel" id="step2">
-                        <h3>Step 2</h3>
-                        <p>Hotel&Airline</p>
+                        <h3>Step 2:Hotel&Airline</h3>
                         <ul class="list-inline pull-right">
                             <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
                             <li><button type="button" class="btn btn-primary next-step">Next step</button></li>
                         </ul>
                     </div>
                     	 <div class="tab-pane" role="tabpanel" id="step3">   
-                        <h3>Step 3</h3>
-                        <p>Mobile Road Guide</p>
+                        <h3>Step 3:Mobile Road Guide</h3>
                         <div class="iphone-wrap">
 												<div class="iphone">
 												<img src="images/1.png">
@@ -112,8 +111,11 @@
                         <div>&nbsp;&nbsp;&nbsp;</div>
                     </div>
                     <div class="tab-pane" role="tabpanel" id="complete">
-                        <h3>Step 4</h3>
-                        <p>Expense Reimbursement</p>
+                        <h3>Step 4:Expense Reimbursement</h3>
+                        <div w3-include-html="step4.html"></div>
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                        </ul>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -128,4 +130,8 @@
         </div>
     </div>
 </body>
+
+<script>
+w3IncludeHTML();
+</script>
 </html>

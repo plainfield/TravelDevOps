@@ -105,7 +105,7 @@ span.round-tab:hover {
 
 .wizard .tab-pane {
     position: relative;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .wizard h3 {
@@ -149,7 +149,7 @@ span.round-tab:hover {
   margin: 0 auto;
   height: 600px;
   padding-top:100px;
-  margin-top:-100px;
+  margin-top:-70px;
   background:url("images/iphone.png") center center no-repeat;
   background-size:contain;
 }
