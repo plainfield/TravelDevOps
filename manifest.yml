@@ -3,6 +3,6 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: TravelDevOps
-  host: TravelDevOps
+  name: TravelDevOps1
+  host: TravelDevOps1
   disk_quota: 1024M
