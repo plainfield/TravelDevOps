@@ -1,14 +1,14 @@
 <div class="col-sm-12 pr50">
 						    <ul style="margin-top:-10px;vertical-align:top" class="nav nav-tabs" role="tablist" id="stepTwoTab">
 						    								<li role="presentation"  class="active">
-						          <a href="#airCt" data-toggle="tab" aria-controls="airCt"  role="tab" title="Air">
+						          <a href="#airCt" data-toggle="tab" aria-controls="airCt"  role="tab" title="航班号">
                             <span class="round-tab">
                                 <i class="glyphicon glyphicon-plane"></i>
                             </span>
                         </a>
                 </li>
  								<li role="presentation">
-						          <a href="#hotelCt" data-toggle="tab" aria-controls="hotelCt"  role="tab" title="Hotel">
+						          <a href="#hotelCt" data-toggle="tab" aria-controls="hotelCt"  role="tab" title="酒店">
                             <span class="round-tab">
                                 <i class="glyphicon glyphicon-home"></i>
                             </span>
@@ -23,37 +23,37 @@
 						    <div class="tab-content">
 						      <div role="tabpanel" class="tab-pane active fade in" id="airCt">
 						      	<div class="search-wrap">
-						      		<div class="search-title"><b>Shanghai-Beijing</b><b>(Round Trip</b> Economy Class<b>)</b><span> 2017-05-17(06:00-12:00)</span></div>
+						      		<div class="search-title"><b>武汉-大连</b><b>(往返航程</b> 经济舱<b>)</b><span> 2017-05-17(06:00-12:00)</span></div>
 						      		<div class="search-ct">
 						      			<div class="one clearfix">
-						      				<div class="text">Shanghai-->Beijing Depart:2017-05-17</div>
+						      				<div class="text">武汉-->大连 起程:2017-05-17</div>
 						      				<div class="select">
-						      					<label>Type</label>
+						      					<label>类型</label>
 							      				<select class="form-control">
-													  <option selected>Domestic</option>
-													  <option>International</option>
+													  <option selected>国内</option>
+													  <option>国际</option>
 												</select>
 											</div>
 											<div class="select">
-						      					<label>Class</label>
+						      					<label>舱位</label>
 							      				<select class="form-control">
-													  <option selected>Economy Class</option>
+													  <option selected>经济舱</option>
 												</select>
 											</div>
 						      			</div>
 						      			<div class="two clearfix">
-						      				<div class="text">One Way</div>
-						      				<div class="input"><label>From</label><input type="text" class="form-control" value="Shanghai"></div>
-						      				<div class="input"><label>To</label><input type="text" class="form-control" value="Beijing"></div>
-						      				<div class="input"><label>Depart</label><input type="text" class="form-control" value="2017/05/17"></div>
+						      				<div class="text">单程</div>
+						      				<div class="input"><label>起始地</label><input type="text" class="form-control" value="武汉"></div>
+						      				<div class="input"><label>目的地</label><input type="text" class="form-control" value="大连"></div>
+						      				<div class="input"><label>起程</label><input type="text" class="form-control" value="2017/05/17"></div>
 						      				<div class="select">
-						      					<label>Time</label>
+						      					<label>时间</label>
 							      				<select class="form-control">
 													  <option selected>09:00</option>
 													  <option >10:00</option>
 												</select>
 											</div>
-											<button type="button" class="btn btn-primary">Search</button>
+											<button type="button" class="btn btn-primary">搜索</button>
 						      			</div>
 						      		</div>
 						      	</div>
@@ -61,51 +61,51 @@
 						      	<table class="table table-hover">
 							      <thead>
 							        <tr>
-							          <th>From/To</th>
-							          <th>Stop Over/Duration</th>
-							          <th>Airline(optional)/Flight No.</th>
-							          <th>Price/Discount</br>(Taxes&Fees excluded)</th>
-							          <th>Taxes/Fees Restrictions</th>
-							          <th>Book</th>
+							          <th>起点/终点</th>
+							          <th>经停/直达</th>
+							          <th>航线(可选)/航班号</th>
+							          <th>价格/折扣</br>(不含税及机场建设费)</th>
+							          <th>税金/机场建设费</th>
+							          <th>订票</th>
 							        </tr>
 							      </thead>
 							      <tbody>
 							        <tr style="color:red">
 							          <th>
-							          	<div class="from clearfix"><span class="time">08:05</span><span class="place">Shanghai Pudong Apt T1</span></div>
-							          	<div class="to clearfix"><span style="color:red" class="time">10:30</span><span class="place">Beijing Nanyuan Apt</span></div>
+							          	<div class="from clearfix"><span class="time">08:05</span><span class="place">武汉 Apt T1</span></div>
+							          	<div class="to clearfix"><span style="color:red" class="time">10:30</span><span class="place">大连 Apt</span></div>
 							          </th>
-							          <td><div class="duration"><div>Nonstop</div><p style="color:red">2H25M</p></div></td>
-							          <td><div class="airline">CHINA UNITED AIRLINES CO.LTD</div><div class="flight">KN5988<span>Aircraft:<i style="color:red">73S</i></span></div></td>
-							          <td><div class="price">¥800<span style="color:red">(25% off/H Economy)</span></div></td>
+							          <td><div class="duration"><div>直达</div><p style="color:red">2H25M</p></div></td>
+							          <td><div class="airline">中国国际航空公司</div><div class="flight">KN5988<span>Aircraft:<i style="color:red">73S</i></span></div></td>
+							          <td><div class="price">&yen;800<span style="color:red">(25% 折扣)</span></div></td>
 							          <td><div class="taxes">50/0</div></td>
 							          <td><a href="#"  class="restrictions">Restrictions
-							          <br><font style="color:red"><b>Recommend</b></font></a></td>
-							          <td><button type="button" class="btn btn-primary">Book</button></td>
+							          <br><font style="color:red"><b>推荐</b></font></a></td>
+							          <td><button type="button" class="btn btn-primary">订票</button></td>
 							        </tr>
 							        <tr>
 							          <th>
-							          	<div class="from clearfix"><span class="time">08:05</span><span class="place">Shanghai Pudong Apt T1</span></div>
-							          	<div class="to clearfix"><span class="time">10:30</span><span class="place">Beijing Nanyuan Apt</span></div>
+							          	<div class="from clearfix"><span class="time">08:05</span><span class="place">武汉 Apt T1</span></div>
+							          	<div class="to clearfix"><span class="time">10:30</span><span class="place">大连 Apt</span></div>
 							          </th>
-							          <td><div class="duration"><div>Nonstop</div><p>2H25M</p></div></td>
-							          <td><div class="airline">CHINA UNITED AIRLINES CO.LTD</div><div class="flight">KN5988<span>Aircraft:<i>73S</i></span></div></td>
-							          <td><div class="price">¥930<span>(<i>25% off/H</i> Economy)</span></div></td>
+							          <td><div class="duration"><div>直达</div><p>2H25M</p></div></td>
+							          <td><div class="airline">中国国际航空公司</div><div class="flight">KN5988<span>Aircraft:<i>73S</i></span></div></td>
+							          <td><div class="price">&yen;930<span>(<i>25%</i> 折扣)</span></div></td>
 							          <td><div class="taxes">50/0</div></td>
 							          <td><a href="#" class="restrictions">Restrictions</a></td>
-							          <td><button type="button" class="btn btn-primary">Book</button></td>
+							          <td><button type="button" class="btn btn-primary">订票</button></td>
 							        </tr>
 							        <tr>
 							          <th>
-							          	<div class="from clearfix"><span class="time">08:05</span><span class="place">Shanghai Pudong Apt T1</span></div>
-							          	<div class="to clearfix"><span class="time">10:30</span><span class="place">Beijing Nanyuan Apt</span></div>
+							          	<div class="from clearfix"><span class="time">08:05</span><span class="place">武汉 Apt T1</span></div>
+							          	<div class="to clearfix"><span class="time">10:30</span><span class="place">大连 Apt</span></div>
 							          </th>
-							          <td><div class="duration"><div>Nonstop</div><p>2H25M</p></div></td>
-							          <td><div class="airline">CHINA UNITED AIRLINES CO.LTD</div><div class="flight">KN5988<span>Aircraft:<i>73S</i></span></div></td>
-							          <td><div class="price">¥930<span>(<i>25% off/H</i> Economy)</span></div></td>
+							          <td><div class="duration"><div>直达</div><p>2H25M</p></div></td>
+							          <td><div class="airline">中国国际航空公司</div><div class="flight">KN5988<span>Aircraft:<i>73S</i></span></div></td>
+							          <td><div class="price">&yen;930<span>(<i>25%</i> 折扣)</span></div></td>
 							          <td><div class="taxes">50/0</div></td>
 							          <td><a href="#" class="restrictions">Restrictions</a></td>
-							          <td><button type="button" class="btn btn-primary">Book</button></td>
+							          <td><button type="button" class="btn btn-primary">订票</button></td>
 							        </tr>
 							      </tbody>
 							    </table>
@@ -133,13 +133,13 @@
 						      <div role="tabpanel" class="tab-pane fade" id="hotelCt">
 						      	<div class="hotel-search">
 						      		<div class="one clearfix">
-						      			<div class="input"><label><i>*</i>City</label><input type="text" class="form-control" value="Beijing"></div>
-						      			<div class="input"><label><i>*</i>Check-in</label><input type="text" class="form-control" value="2017/05/17"></div>
-						      			<div class="input"><label><i>*</i>Check-out</label><input type="text" class="form-control" value="2017/05/19"></div>
+						      			<div class="input"><label><i>*</i>城市</label><input type="text" class="form-control" value="大连"></div>
+						      			<div class="input"><label><i>*</i>入住</label><input type="text" class="form-control" value="2017/05/17"></div>
+						      			<div class="input"><label><i>*</i>退房</label><input type="text" class="form-control" value="2017/05/19"></div>
 						      		</div>
 						      		<div class="two clearfix">
 						      			<div class="select">
-					      					<label>Rooms</label>
+					      					<label>房间</label>
 						      				<select class="form-control">
 												  <option>1</option>
 												  <option>2</option>
@@ -149,7 +149,7 @@
 											</select>
 										</div>
 										<div class="select other">
-					      					<label>Guest(s)</label>
+					      					<label>宾客</label>
 						      				<select class="form-control">
 												  <option>1</option>
 												  <option>2</option>
@@ -157,35 +157,35 @@
 												  <option>4</option>
 												  <option>5</option>
 											</select>
-											<span>/Room</span>
+											<span>/房间</span>
 										</div>
-										<div class="input"><label>Hotel Name</label><input type="text" class="form-control"></div>
+										<div class="input"><label>酒店名称</label><input type="text" class="form-control"></div>
 						      		</div>
 						      		<div class="three clearfix">
-						      			<span>Stars</span>
+						      			<span>星级</span>
 						      			<label class="checkbox-inline">
-										  <input type="checkbox" id="AllCheckbox" value="option1"> All
+										  <input type="checkbox" id="AllCheckbox" value="option1"> 所有
 										</label>
 										<label class="checkbox-inline">
-										  <input type="checkbox" id="OthersCheckbox" value="option2"> Others
+										  <input type="checkbox" id="OthersCheckbox" value="option2"> 其他
 										</label>
 										<label class="checkbox-inline">
-										  <input type="checkbox" id="StarsCheckbox3" value="option3"> 3-Stars
+										  <input type="checkbox" id="StarsCheckbox3" value="option3"> 3星级
 										</label>
 										<label class="checkbox-inline">
-										  <input type="checkbox" id="StarsCheckbox4" value="option4"> 4-Stars
+										  <input type="checkbox" id="StarsCheckbox4" value="option4"> 4星级
 										</label>
 										<label class="checkbox-inline">
-										  <input type="checkbox" id="StarsCheckbox5" value="option5"> 5-Stars
+										  <input type="checkbox" id="StarsCheckbox5" value="option5"> 5星级
 										</label>
 						      		</div>
 						      		<div class="four clearfix">
-						      			<span>Rates</span>
+						      			<span>价格</span>
 						      			<label class="radio-inline">
-										  <input type="radio" name="inlineRadioOptions"  value="All"> All
+										  <input type="radio" name="inlineRadioOptions"  value="All"> 所有
 										</label>
 										<label class="radio-inline">
-										  <input type="radio" name="inlineRadioOptions" value="$Below 150"> $Below 150
+										  <input type="radio" name="inlineRadioOptions" value="$Below 150"> 150以下
 										</label>
 										<label class="radio-inline">
 										  <input type="radio" name="inlineRadioOptions" value="$151-300"> $151-300
@@ -198,14 +198,14 @@
 										</label>
 										<div class="rate">
 											<input type="text" class="form-control">
-											<span>To</span>
+											<span>至</span>
 											<input type="text" class="form-control">
 										</div>
 						      		</div>
 						      		<div class="five clearfix">
-						      			<div class="input"><label>Address</label><input type="text" class="form-control" placeholder="address/landmark"></div>
+						      			<div class="input"><label>地址</label><input type="text" class="form-control" placeholder=""></div>
 						      			<label class="radio-inline">
-										  <input type="radio" name="inlineRadioOptions1" value="Unlimited"> Unlimited
+										  <input type="radio" name="inlineRadioOptions1" value="Unlimited"> 不限制
 										</label>
 										<label class="radio-inline">
 										  <input type="radio" name="inlineRadioOptions1" value="500m"> 500m
@@ -216,16 +216,16 @@
 										<label class="radio-inline">
 										  <input type="radio" name="inlineRadioOptions1" value="5km"> 5km
 										</label>
-										<button type="button" class="btn btn-primary">Search</button>
+										<button type="button" class="btn btn-primary">搜索</button>
 						      		</div>
 						      	</div>
 						      	<div class="corporate-hotel">
-								  	  <div class="top"><span>Corporate Hotel</span></div>
+								  	  <div class="top"><span>协议酒店</span></div>
 								  	  <div class="lists">
 								  	  	<div class="title clearfix">
-									  	  	<span class="text">26Hotels</span>
-								  	  		<button type="button" class="btn btn-success">Stars<span class="caret"></span></button>
-									  	  	<button type="button" class="btn btn-primary">Rates<span class="caret"></span></button>
+									  	  	<span class="text">26家酒店</span>
+								  	  		<button type="button" class="btn btn-success">星级<span class="caret"></span></button>
+									  	  	<button type="button" class="btn btn-primary">价格<span class="caret"></span></button>
 									  	  	<span class="glyphicon glyphicon-user text-btn">Foreign Nationals</span>
 									  	  	<span class="glyphicon glyphicon-user text-btn">Mainland Chinese Nationals</span>
 								  	  	</div>
@@ -235,15 +235,15 @@
 									  	  		<div class="one">
 										  	  		<div class="img-wrap"><img src="images/2.jpg"></div>
 										  	  		<div  class="text" >
-										  	  			<h2 style="color:red">HILTON BEIJING WANGFUJING<span style="color:red">Corperate</span></h2>
-										  	  			<p style="color:red">8 WANGFUJING EAST STAREET BEIJING CN 100006</p>
-										  	  			<div class="address"><span class="glyphicon glyphicon-map-marker"></span>MAP</div>
+										  	  			<h2 style="color:red">大连华美达<span style="color:red">协议酒店</span></h2>
+										  	  			<p style="color:red">大连胜利广场18号</p>
+										  	  			<div class="address"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
 										  	  		</div>
-										  	  		<div style="color:red" class="rate">Rates from <b>450.00 CNY</b></div>
+										  	  		<div style="color:red" class="rate">价格 <b>450.00 CNY+</b></div>
 										  	  	</div>
 									  	  		<div class="two clearfix">
 									  	  			<div class="stars">
-									  	  				<span class="text">Stars:</span>
+									  	  				<span class="text">星级:</span>
 									  	  				<span class="glyphicon glyphicon-star"></span>
 									  	  				<span class="glyphicon glyphicon-star"></span>
 									  	  				<span class="glyphicon glyphicon-star"></span>
@@ -251,8 +251,8 @@
 									  	  				<span class="glyphicon glyphicon-star"></span>
 									  	  			</div>
 									  	  			<div class="btn-line">
-									  	  				<button type="button" class="btn btn-primary">Select</button>
-									  	  				<button type="button" class="btn btn-primary">Review</button>
+									  	  				<button type="button" class="btn btn-primary">选择</button>
+									  	  				<button type="button" class="btn btn-primary">查看</button>
 									  	  			</div>
 									  	  		</div>
 								  	  		</div>
@@ -263,15 +263,15 @@
 									  	  		<div class="one">
 										  	  		<div class="img-wrap"><img src="images/51929.jpg"></div>
 										  	  		<div class="text">
-										  	  			<h2>SHANGRI-LA HOTELS<span>Corperate</span></h2>
-										  	  			<p>NO 1 JIANGUOMENWAI AVENUE, BEIJING 100004</p>
-										  	  			<div class="address"><span class="glyphicon glyphicon-map-marker"></span>MAP</div>
+										  	  			<h2>大连威斯汀<span>协议酒店</span></h2>
+										  	  			<p>大连大连东港新区长江路</p>
+										  	  			<div class="address"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
 										  	  		</div>
-										  	  		<div class="rate">Rates from <b>550.00 CNY</b></div>
+										  	  		<div class="rate">价格 <b>550.00 CNY+</b></div>
 										  	  	</div>
 									  	  		<div class="two clearfix">
 									  	  			<div class="stars">
-									  	  				<span class="text">Stars:</span>
+									  	  				<span class="text">星级:</span>
 									  	  				<span class="glyphicon glyphicon-star"></span>
 									  	  				<span class="glyphicon glyphicon-star"></span>
 									  	  				<span class="glyphicon glyphicon-star"></span>
@@ -279,8 +279,8 @@
 									  	  				<span class="glyphicon glyphicon-star"></span>
 									  	  			</div>
 									  	  			<div class="btn-line">
-									  	  				<button type="button" class="btn btn-primary">Select</button>
-									  	  				<button type="button" class="btn btn-primary">Review</button>
+									  	  				<button type="button" class="btn btn-primary">选择</button>
+									  	  				<button type="button" class="btn btn-primary">查看</button>
 									  	  			</div>
 									  	  		</div>
 								  	  		</div>
@@ -291,15 +291,15 @@
 									  	  		<div class="one">
 										  	  		<div class="img-wrap"><img src="images/174.jpg"></div>
 										  	  		<div class="text">
-										  	  			<h2>INTERCONTINENTAL HOTELS<span>Corperate</span></h2>
-										  	  			<p>8, BEICHEN WEST ROAD,CHAOYANG DISTRICT, BEIJING,100105</p>
-										  	  			<div class="address"><span class="glyphicon glyphicon-map-marker"></span>MAP</div>
+										  	  			<h2>大连香格里拉<span>协议酒店</span></h2>
+										  	  			<p>大连人民路66号</p>
+										  	  			<div class="address"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
 										  	  		</div>
-										  	  		<div class="rate">Rates from <b>560.00 CNY</b></div>
+										  	  		<div class="rate">价格 <b>560.00 CNY+</b></div>
 										  	  	</div>
 									  	  		<div class="two clearfix">
 									  	  			<div class="stars">
-									  	  				<span class="text">Stars:</span>
+									  	  				<span class="text">星级:</span>
 									  	  				<span class="glyphicon glyphicon-star"></span>
 									  	  				<span class="glyphicon glyphicon-star"></span>
 									  	  				<span class="glyphicon glyphicon-star"></span>
@@ -307,8 +307,8 @@
 									  	  				<span class="glyphicon glyphicon-star"></span>
 									  	  			</div>
 									  	  			<div class="btn-line">
-									  	  				<button type="button" class="btn btn-primary">Select</button>
-									  	  				<button type="button" class="btn btn-primary">Review</button>
+									  	  				<button type="button" class="btn btn-primary">选择</button>
+									  	  				<button type="button" class="btn btn-primary">查看</button>
 									  	  			</div>
 									  	  		</div>
 								  	  		</div>

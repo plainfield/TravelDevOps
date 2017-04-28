@@ -1,4 +1,4 @@
- <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+ <html xmlns="http://www.w3.org/1999/xhtml" lang="zh" xml:lang="zh">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>IBM TravelDevops</title>
@@ -26,12 +26,12 @@
         <div id="navbar" class="navbar-collapse collapse">
           <form class="navbar-form navbar-right">
             <div class="form-group">
-              <input type="text" placeholder="Email" class="form-control">
+              <input type="text" placeholder="邮箱" class="form-control">
             </div>
             <div class="form-group">
-              <input type="password" placeholder="Password" class="form-control">
+              <input type="password" placeholder="密码" class="form-control">
             </div>
-            <button type="submit" class="btn btn-success">Sign in</button>
+            <button type="submit" class="btn btn-success">登陆</button>
           </form>
         </div><!--/.navbar-collapse -->
       </div>
@@ -44,16 +44,7 @@
             <div class="wizard-inner">
                 <div class="connecting-line"></div>
                 <ul class="nav nav-tabs" role="tablist">
-
                     <li role="presentation" class="active">
-                        <a href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Expense Pre Approval">
-                            <span class="round-tab">
-                                <i class="glyphicon glyphicon-list-alt"></i>
-                            </span>
-                        </a>
-                    </li>
-
-                    <li role="presentation">
                         <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Hotel&Airline">
                             <span class="round-tab">
                                 <i class="glyphicon glyphicon-globe"></i>
@@ -80,44 +71,37 @@
 
             <form role="form">
                 <div class="tab-content">
-                    <div class="tab-pane active" role="tabpanel" id="step1">
-                        <h3>Step 1 :Expense Pre Approval</h3> 
-                        <div w3-include-html="step1.html"></div>
-                        <ul class="list-inline pull-right">
-                            <li><button type="button" class="btn btn-primary next-step">Next step</button></li>
-                        </ul>
-                    </div>
-                    <div class="tab-pane" role="tabpanel" id="step2">
+                    <div class="tab-pane active" role="tabpanel" id="step2">
                         <table width="100%"><tr><td>
-                        <h3>Step 2:Hotel&Airline</h3>
+                        <h3>步骤 1:酒店&航班</h3>
                         </td>
-                        <td width="75%" style="color:#428bca"><img src="images/speaker40.png" style="height:40;width:40"> Your EPA request was approved. And the travel assignment was synchronized into your carlender
+                        <td width="75%" style="color:#428bca"><img src="images/speaker40.png" style="height:40;width:40"> 根据您的Agenda, 您接下来会去大连市出差, 为您推荐以下协议酒店和航班
                         </td></tr></table>
                         <div w3-include-html="step2.html"></div>
                         <ul class="list-inline pull-right">
-                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-                            <li><button type="button" class="btn btn-primary next-step">Next step</button></li>
+                            <li><button type="button" class="btn btn-default prev-step">上一步</button></li>
+                            <li><button type="button" class="btn btn-primary next-step">下一步</button></li>
                         </ul>
                     </div>
                     	 <div class="tab-pane" role="tabpanel" id="step3">   
-                        <h3>Step 3:Mobile Road Guide</h3>
+                        <h3>步骤 2:手机导航</h3>
                         <div class="iphone-wrap">
 												<div class="iphone">
 												<img src="images/1.png">
 												</div>
 												</div>
                         <ul class="list-inline pull-right">
-                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
-                            <li><button type="button" class="btn btn-default next-step">Skip</button></li>
-                            <li><button type="button" class="btn btn-primary btn-info-full next-step">Next step</button></li>
+                            <li><button type="button" class="btn btn-default prev-step">上一步</button></li>
+                            <li><button type="button" class="btn btn-default next-step">跳过</button></li>
+                            <li><button type="button" class="btn btn-primary btn-info-full next-step">下一步</button></li>
                         </ul>
                         <div>&nbsp;&nbsp;&nbsp;</div>
                     </div>
                     <div class="tab-pane" role="tabpanel" id="complete">
-                        <h3>Step 4:Expense Reimbursement</h3>
+                        <h3>步骤 3:费用报销</h3>
                         <div w3-include-html="step4.html"></div>
                         <ul class="list-inline pull-right">
-                            <li><button type="button" class="btn btn-default prev-step">Previous</button></li>
+                            <li><button type="button" class="btn btn-default prev-step">上一步</button></li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
