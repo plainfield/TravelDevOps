@@ -120,5 +120,37 @@
 
 <script>
 w3IncludeHTML();
+setTimeout(function(){ 
+	
+$('#menu-toggle').on('click', function(){
+	plusclick();
+});
+$('#menu-toggle1').on('click', function(){
+	plusclick1();
+});
+}, 1000);
+
+function plusclick(){
+  var iSelector = $('#iconplus');
+	if ($(".slidingDiv").is(':hidden')){
+		$(".slidingDiv").show();
+	  iSelector.attr('src','images/minus.png');
+	} else {
+		$(".slidingDiv").hide();
+		iSelector.attr('src','images/plus.png');
+	}
+};
+
+function plusclick1(){
+  var iSelector = $('#iconplus1');
+	if ($(".slidingDiv1").is(':hidden')){
+		$(".slidingDiv1").show();
+	  iSelector.attr('src','images/minus.png');
+	} else {
+		$(".slidingDiv1").hide();
+		iSelector.attr('src','images/plus.png');
+	}
+};
+
 </script>
 </html>
