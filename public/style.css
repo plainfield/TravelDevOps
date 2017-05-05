@@ -145,7 +145,7 @@ span.round-tab:hover {
 }
 
 .iphone-wrap{
-  width: 800px;
+  width: 1000px;
   margin: 0 auto;
   height: 600px;
   padding-top:100px;
@@ -574,4 +574,61 @@ width:48px;  background:url("http://icons.iconarchive.com/icons/pixelmixer/basic
 }
 .toggle.expanded{
   background:url("http://cdn2.iconfinder.com/data/icons/onebit/PNG/onebit_32.png");
+}
+
+
+ .address{
+
+    width: 300px;
+
+    position: absolute;
+
+    top: 50px;
+
+}
+
+.address .duration span{
+
+float: left;
+
+}
+
+.address .duration .glyphicon{
+
+top:2px;
+
+color:#428bca;
+
+margin-right: 5px;
+
+}
+
+.address .duration .glyphicon-time{
+
+margin-left: 30px;
+
+}
+
+.address .title{
+
+color:#428bca;
+
+font-weight: bold;
+
+}
+
+.address .text{
+
+color: #fff;
+
+background: #5cb85c;
+
+padding: 3px 5px;
+
+border-radius:3px;
+
+margin-bottom: 10px;
+
+margin-top: 10px;
+
 }
