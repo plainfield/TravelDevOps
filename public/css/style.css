@@ -767,9 +767,7 @@ body {
 	margin-top: 10px;
 }
 
-.container{
-	background: #222;
-}
+
 
 .navbar-default{
 	background: #222 !important;
@@ -859,4 +857,18 @@ ul.pagination{
 
 .form-control{
 	background-color:#ccc !important;
+}
+
+.navbar-fixed-top{
+	background: #222 url(../images/top-banner.jpeg) no-repeat fixed top;
+	height:100px !important;
+	background-size:100% 100px; 
+}
+
+#mycon{
+	margin-top:60px;
+}
+
+.navbar-header{
+	margin-top:20px;
 }
