@@ -155,7 +155,7 @@ span.round-tab:hover {
 	height: 600px;
 	padding-top: 100px;
 	margin-top: -70px;
-	background: url("images/iphone.png") center center no-repeat;
+	background: url("/images/iphone.png") center center no-repeat;
 	background-size: contain;
 }
 
