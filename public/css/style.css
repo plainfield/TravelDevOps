@@ -1,13 +1,17 @@
+.navbar-brand{
+	font-size:36px !important;
+}
+
 .wizard {
 	margin: 20px auto;
-	background: #fff;
+	background: #222;
 }
 
 .wizard .nav-tabs {
 	position: relative;
 	margin: 40px auto;
 	margin-bottom: 0;
-	border-bottom-color: #e0e0e0;
+	border-bottom: none;
 }
 
 .wizard>div.wizard-inner {
@@ -16,12 +20,12 @@
 
 .connecting-line {
 	height: 2px;
-	background: #e0e0e0;
+	background: #999;
 	position: absolute;
-	width: 80%;
+	width: 50%;
 	margin: 0 auto;
 	left: 0;
-	right: 0;
+	right: 300;
 	top: 50%;
 	z-index: 1;
 }
@@ -139,8 +143,7 @@ span.round-tab:hover {
 }
 
 @import
-	url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css)
-	;
+	url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 .bg-lightgray {
 	background-color: LightGray;
@@ -226,6 +229,8 @@ span.round-tab:hover {
 }
 body {
 	padding-bottom: 60px;
+	background-color: #222 !important; 
+	color:#999
 }
 /*  step 2*/
 .step2 .nav-tabs>li>a {
@@ -263,7 +268,7 @@ body {
 }
 
 .step2 .search-wrap {
-	padding: 10px 20px;
+	padding: 2px 20px 10px 5px;
 }
 
 .step2 .search-title {
@@ -420,8 +425,12 @@ body {
 }
 
 .step2 .hotel-search {
-	border: #e0e0e0 1px solid;
+	border: #666 1px solid;
 	padding: 20px;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
 }
 
 .step2 .hotel-search .one, .step2 .hotel-search .two, .step2 .hotel-search .three,
@@ -554,12 +563,12 @@ body {
 }
 
 .step2 .corporate-hotel .top {
-	background: #428bca;
+	background: #333;
 	height: 45px;
 }
 
 .step2 .corporate-hotel .top span {
-	background: #fff;
+	background: #333;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	display: inline-block;
@@ -572,7 +581,7 @@ body {
 }
 
 .step2 .corporate-hotel .title {
-	border-bottom: #e0e0e0 1px solid;
+	border-bottom: #666 1px solid;
 	padding: 10px 20px;
 	margin-bottom: 20px;
 }
@@ -632,7 +641,7 @@ body {
 .step2 .corporate-hotel .list {
 	position: relative;
 	padding-left: 70px;
-	border-bottom: #e0e0e0 1px solid;
+	border-bottom: #666 1px solid;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
@@ -756,4 +765,98 @@ body {
 	border-radius: 3px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+}
+
+.container{
+	background: #222;
+}
+
+.navbar-default{
+	background: #222 !important;
+	border-color: #222 !important;
+}
+
+.navbar{
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: 1px solid #666 !important;
+}
+
+.tab-content .table .table,#expense-list {
+    background-color: #222 !important;
+    color:#eee !important;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    border: #666 solid 1px;
+    border-collapse: separate;
+}
+
+div .lists{
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    border: #666 solid 1px;
+}
+
+.corporate-hotel{
+	border:none !important;
+}
+
+.corporate-hotel .top{
+	background-color: #222 !important;
+}
+
+.table-hover tbody tr{
+	color:#999;
+}
+
+.table-hover tbody tr:hover{
+	background: #222 !important;
+	color:#eee;
+}
+
+.table tbody tr td,.table > tbody > tr > th{
+	border-top: 1px solid #666 !important;
+	border-bottom:none !important;
+}
+
+.tab-content > .table > .table > tbody > tr:first-child > td{
+	border-top: none !important;
+}
+
+.table > thead > tr > th{
+	border-bottom:none !important;
+}
+
+.tab-content h3{
+	color:#ccc;
+}
+
+.tab-content td h3{
+	color:#ccc;
+	padding-left:15px;
+}
+
+.search-title,.tab-content{
+	color:#999;
+}
+
+#sub-title-airplane{
+	padding-top:12px;
+}
+
+ul.pagination li a{
+	background-color:#333;
+}
+
+ul.pagination{
+	margin:0 !important;
+}
+
+.form-control{
+	background-color:#ccc !important;
 }
