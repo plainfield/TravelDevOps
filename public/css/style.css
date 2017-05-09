@@ -57,6 +57,26 @@ span.round-tab i {
 	color: #555555;
 }
 
+span.round-tab {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: inline-block;
+	border-radius: 100px;
+	background: #fff;
+	border: 2px solid #e0e0e0;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	font-size: 25px;
+}
+
+span.round-tab i {
+	color: #555555;
+}
+
+
 .wizard li.active span.round-tab {
 	background: #fff;
 	border: 2px solid #5bc0de;
@@ -149,84 +169,7 @@ span.round-tab:hover {
 	background-color: LightGray;
 }
 
-.iphone-wrap {
-	width: 1000px;
-	margin: 0 auto;
-	height: 600px;
-	padding-top: 100px;
-	margin-top: -70px;
-	background: url("images/iphone.png") center center no-repeat;
-	background-size: contain;
-}
 
-.iphone-wrap .iphone {
-	width: 225px;
-	height:400px;
-	margin: 0 auto;
-	background: #fff;
-}
-
-.iphone-wrap .iphone img {
-	width: 100%;
-}
-
-.iphone-wrap .nav-tabs{
-	margin-top: 10px;
-	padding-bottom: 15px;
-}
-.iphone-wrap .nav-tabs > li{
-	width:40px;
-	height: 40px;
-	margin-left: 25px;
-	position: relative;
-	border:#e0e0e0 2px solid;
-	border-radius:50%;
-	background: none;
-
-}
-.iphone-wrap  .nav-tabs > li a{
-	width:36px;
-	height: 36px;
-	margin: 0;
-	text-align: center;
-	line-height: 36px;
-	color: #333;
-	background: none;
-	background-color:transparent;
-}
-.iphone-wrap .nav-tabs > li.active > a,.iphone-wrap .nav-tabs > li.active > a:hover,
-.iphone-wrap .nav-tabs > li.active > a:focus,.iphone-wrap .nav-tabs > li > a,.iphone-wrap .nav-tabs > li:hover > a{
-	background-color:transparent;
-	border:none;
-}
-.iphone-wrap  .nav-tabs > li i{
-	top:10px;
-	background: none;
-}
-.iphone-wrap  .nav-tabs > li.active a,.iphone-wrap  .nav-tabs > li a:hover,
-.iphone-wrap  .nav-tabs > li.active a:hover,.iphone-wrap  .nav-tabs > li a:focus{
-	color: #5bc0de;
-}
-.iphone-wrap  .nav-tabs > li.active,.iphone-wrap  .nav-tabs > li:hover{
-	border: 2px solid #5bc0de;
-}
-.iphone-wrap  .nav-tabs  li.active::after{
-	left: 8px;
-	bottom: -17px;
-}
-.iphone-wrap .tab-pane{
-	padding-top: 5px;
-}
-.iphone-wrap .address{
-	width: 200px;
-	position: relative;
-	top:0;
-	margin: 0 auto;
-}
-.iphone-wrap .address .text{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
 body {
 	padding-bottom: 60px;
 	background-color: #222 !important; 
