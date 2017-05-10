@@ -589,8 +589,12 @@ body {
 	padding-top: 20px;
 }
 
-.step2 .corporate-hotel .lists :last-child {
+.step2 .corporate-hotel .lists:last-child {
 	border-bottom: none;
+}
+
+.step2 .corporate-hotel .lists:last-child > li > a{
+	border-bottom: #666 1px solid;
 }
 
 .step2 .corporate-hotel .list .item {
