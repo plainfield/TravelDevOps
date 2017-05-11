@@ -618,6 +618,17 @@ body {
 	top: 0;
 	left: 0;
 }
+.step2 .corporate-hotel .one .img-wrap .tag{
+	position: absolute;
+	top:0;
+	left: 0;
+	background: url("../icons/xieyi.png") no-repeat;
+	display: inline-block;
+	z-index:2;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+}
 
 .step2 .corporate-hotel .one .img-wrap img {
 	max-width: 100%;
