@@ -1,13 +1,17 @@
+.navbar-brand{
+	font-size:36px !important;
+}
+
 .wizard {
 	margin: 20px auto;
-	background: #fff;
+	background: #222;
 }
 
 .wizard .nav-tabs {
 	position: relative;
 	margin: 40px auto;
 	margin-bottom: 0;
-	border-bottom-color: #e0e0e0;
+	border-bottom: none;
 }
 
 .wizard>div.wizard-inner {
@@ -16,12 +20,12 @@
 
 .connecting-line {
 	height: 2px;
-	background: #e0e0e0;
+	background: #999;
 	position: absolute;
-	width: 80%;
+	width: 50%;
 	margin: 0 auto;
 	left: 0;
-	right: 0;
+	right: 300;
 	top: 50%;
 	z-index: 1;
 }
@@ -52,6 +56,26 @@ span.round-tab {
 span.round-tab i {
 	color: #555555;
 }
+
+span.round-tab {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: inline-block;
+	border-radius: 100px;
+	background: #fff;
+	border: 2px solid #e0e0e0;
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	text-align: center;
+	font-size: 25px;
+}
+
+span.round-tab i {
+	color: #555555;
+}
+
 
 .wizard li.active span.round-tab {
 	background: #fff;
@@ -139,93 +163,17 @@ span.round-tab:hover {
 }
 
 @import
-	url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css)
-	;
+	url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 
 .bg-lightgray {
 	background-color: LightGray;
 }
 
-.iphone-wrap {
-	width: 1000px;
-	margin: 0 auto;
-	height: 600px;
-	padding-top: 100px;
-	margin-top: -70px;
-	background: url("images/iphone.png") center center no-repeat;
-	background-size: contain;
-}
 
-.iphone-wrap .iphone {
-	width: 225px;
-	height:400px;
-	margin: 0 auto;
-	background: #fff;
-}
-
-.iphone-wrap .iphone img {
-	width: 100%;
-}
-
-.iphone-wrap .nav-tabs{
-	margin-top: 10px;
-	padding-bottom: 15px;
-}
-.iphone-wrap .nav-tabs > li{
-	width:40px;
-	height: 40px;
-	margin-left: 20px;
-	position: relative;
-	border:#e0e0e0 2px solid;
-	border-radius:50%;
-	background: none;
-
-}
-.iphone-wrap  .nav-tabs > li a{
-	width:36px;
-	height: 36px;
-	margin: 0;
-	text-align: center;
-	line-height: 36px;
-	color: #333;
-	background: none;
-	background-color:transparent;
-}
-.iphone-wrap .nav-tabs > li.active > a,.iphone-wrap .nav-tabs > li.active > a:hover,
-.iphone-wrap .nav-tabs > li.active > a:focus,.iphone-wrap .nav-tabs > li > a,.iphone-wrap .nav-tabs > li:hover > a{
-	background-color:transparent;
-	border:none;
-}
-.iphone-wrap  .nav-tabs > li i{
-	top:10px;
-	background: none;
-}
-.iphone-wrap  .nav-tabs > li.active a,.iphone-wrap  .nav-tabs > li a:hover,
-.iphone-wrap  .nav-tabs > li.active a:hover,.iphone-wrap  .nav-tabs > li a:focus{
-	color: #5bc0de;
-}
-.iphone-wrap  .nav-tabs > li.active,.iphone-wrap  .nav-tabs > li:hover{
-	border: 2px solid #5bc0de;
-}
-.iphone-wrap  .nav-tabs  li.active::after{
-	left: 8px;
-	bottom: -17px;
-}
-.iphone-wrap .tab-pane{
-	padding-top: 5px;
-}
-.iphone-wrap .address{
-	width: 200px;
-	position: relative;
-	top:0;
-	margin: 0 auto;
-}
-.iphone-wrap .address .text{
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
 body {
 	padding-bottom: 60px;
+	background-color: #222 !important; 
+	color:#999
 }
 /*  step 2*/
 .step2 .nav-tabs>li>a {
@@ -263,7 +211,7 @@ body {
 }
 
 .step2 .search-wrap {
-	padding: 10px 20px;
+	padding: 2px 20px 10px 5px;
 }
 
 .step2 .search-title {
@@ -420,8 +368,12 @@ body {
 }
 
 .step2 .hotel-search {
-	border: #e0e0e0 1px solid;
+	border: #666 1px solid;
 	padding: 20px;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
 }
 
 .step2 .hotel-search .one, .step2 .hotel-search .two, .step2 .hotel-search .three,
@@ -554,12 +506,12 @@ body {
 }
 
 .step2 .corporate-hotel .top {
-	background: #428bca;
+	background: #333;
 	height: 45px;
 }
 
 .step2 .corporate-hotel .top span {
-	background: #fff;
+	background: #333;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 	display: inline-block;
@@ -572,7 +524,7 @@ body {
 }
 
 .step2 .corporate-hotel .title {
-	border-bottom: #e0e0e0 1px solid;
+	border-bottom: #666 1px solid;
 	padding: 10px 20px;
 	margin-bottom: 20px;
 }
@@ -632,13 +584,17 @@ body {
 .step2 .corporate-hotel .list {
 	position: relative;
 	padding-left: 70px;
-	border-bottom: #e0e0e0 1px solid;
+	border-bottom: #666 1px solid;
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
 
-.step2 .corporate-hotel .lists :last-child {
+.step2 .corporate-hotel .lists:last-child {
 	border-bottom: none;
+}
+
+.step2 .corporate-hotel .lists:last-child > li > a{
+	border-bottom: #666 1px solid;
 }
 
 .step2 .corporate-hotel .list .item {
@@ -756,4 +712,110 @@ body {
 	border-radius: 3px;
 	margin-bottom: 10px;
 	margin-top: 10px;
+}
+
+
+
+.navbar-default{
+	background: #222 !important;
+	border-color: #222 !important;
+}
+
+.navbar{
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: 1px solid #666 !important;
+}
+
+.tab-content .table .table,#expense-list {
+    background-color: #222 !important;
+    color:#eee !important;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    border: #666 solid 1px;
+    border-collapse: separate;
+}
+
+div .lists{
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    border: #666 solid 1px;
+}
+
+.corporate-hotel{
+	border:none !important;
+}
+
+.corporate-hotel .top{
+	background-color: #222 !important;
+}
+
+.table-hover tbody tr{
+	color:#999;
+}
+
+.table-hover tbody tr:hover{
+	background: #222 !important;
+	color:#eee;
+}
+
+.table tbody tr td,.table > tbody > tr > th{
+	border-top: 1px solid #666 !important;
+	border-bottom:none !important;
+}
+
+.tab-content > .table > .table > tbody > tr:first-child > td{
+	border-top: none !important;
+}
+
+.table > thead > tr > th{
+	border-bottom:none !important;
+}
+
+.tab-content h3{
+	color:#ccc;
+}
+
+.tab-content td h3{
+	color:#ccc;
+	padding-left:15px;
+}
+
+.search-title,.tab-content{
+	color:#999;
+}
+
+#sub-title-airplane{
+	padding-top:12px;
+}
+
+ul.pagination li a{
+	background-color:#333;
+}
+
+ul.pagination{
+	margin:0 !important;
+}
+
+.form-control{
+	background-color:#ccc !important;
+}
+
+.navbar-fixed-top{
+	background: #222 url(../images/top-banner.jpeg) no-repeat fixed top;
+	height:100px !important;
+	background-size:100% 100px; 
+}
+
+#mycon{
+	margin-top:60px;
+}
+
+.navbar-header{
+	margin-top:20px;
 }
