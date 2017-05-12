@@ -1,309 +1,198 @@
-<img src="images/brain.png" style="height:26px;width:26px">如果你不喜欢上面的推荐的酒店和机票，请使用下面搜索功能：
-<div id="sub-title-airplane"><a id="menu-toggle" href="#">
-    <img id="iconplus" src="images/airplane.png" style="height:26px;width:26px">机票
-</a></div>
-<div role="tabpanel" class="tab-pane active fade in" id="airCt">
-    <div class="slidingDiv">
-
-        <div class="table table-responsive">
-            <table class="table table-hover">
-                <thead>
-                <tr>
-                    <th>起点/终点</th>
-                    <th>经停/直达</th>
-                    <th>航线(可选)/航班号</th>
-                    <th>价格/折扣</br>(不含税及机场建设费)</th>
-                    <th>税金/机场建设费</th>
-                    <th>订票</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th>
-                        <div class="from clearfix"><span class="time">08:05</span><span class="place">武汉 Apt T1</span></div>
-                        <div class="to clearfix"><span class="time">10:30</span><span class="place">大连 Apt</span></div>
-                    </th>
-                    <td>
-                        <div class="duration">
-                            <div>直达</div>
-                            <p>2H25M</p></div>
-                    </td>
-                    <td>
-                        <div class="airline">中国国际航空公司</div>
-                        <div class="flight">KN5988<span>Aircraft:<i>73S</i></span></div>
-                    </td>
-                    <td>
-                        <div class="price">&yen;930<span>(<i>25%</i> 折扣)</span></div>
-                    </td>
-                    <td>
-                        <div class="taxes">50/0</div>
-                    </td>
-                    <td><a href="#" class="restrictions">Restrictions</a></td>
-                    <td>
-                        <button type="button" class="btn btn-primary">订票</button>
-                    </td>
-                </tr>
-                <tr>
-                    <th>
-                        <div class="from clearfix"><span class="time">08:05</span><span class="place">武汉 Apt T1</span></div>
-                        <div class="to clearfix"><span class="time">10:30</span><span class="place">大连 Apt</span></div>
-                    </th>
-                    <td>
-                        <div class="duration">
-                            <div>直达</div>
-                            <p>2H25M</p></div>
-                    </td>
-                    <td>
-                        <div class="airline">中国国际航空公司</div>
-                        <div class="flight">KN5988<span>Aircraft:<i>73S</i></span></div>
-                    </td>
-                    <td>
-                        <div class="price">&yen;930<span>(<i>25%</i> 折扣)</span></div>
-                    </td>
-                    <td>
-                        <div class="taxes">50/0</div>
-                    </td>
-                    <td><a href="#" class="restrictions">Restrictions</a></td>
-                    <td>
-                        <button type="button" class="btn btn-primary">订票</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="7">
-                        <nav aria-label="Page navigation">
-                            <ul class="pagination">
-                                <li>
-                                    <a href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
-                                    </a>
-                                </li>
-                                <li><a href="#">1</a></li>
-                                <li><a href="#">2</a></li>
-                                <li><a href="#">3</a></li>
-                                <li><a href="#">4</a></li>
-                                <li><a href="#">5</a></li>
-                                <li>
-                                    <a href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
+<div class="hotel-list-container">
+    <div class="hotel-list-title">
+        <img src="icons/xieyijiudian.png">
+        <span>协议酒店</span>
     </div>
-    <div><a id="menu-toggle1" href="#">
-        <img id="iconplus1" src="images/hotel.png" style="height:26px;width:26px">酒店
-    </a></div>
-    <div class="slidingDiv1">
-        <div class="hotel-search">
-            <div class="one clearfix">
-                <div class="input"><label><i>*</i>城市</label><input type="text" class="form-control" value="大连"></div>
-                <div class="input"><label><i>*</i>入住</label><input type="text" class="form-control" value="2017/05/17"></div>
-                <div class="input"><label><i>*</i>退房</label><input type="text" class="form-control" value="2017/05/19"></div>
-            </div>
-            <div class="two clearfix">
-                <div class="select">
-                    <label>房间</label>
-                    <select class="form-control">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                </div>
-                <div class="select other">
-                    <label>宾客</label>
-                    <select class="form-control">
-                        <option>1</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                    </select>
-                    <span>/房间</span>
-                </div>
-                <div class="input"><label>酒店名称</label><input type="text" class="form-control"></div>
-            </div>
-            <div class="three clearfix">
-                <span>星级</span>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="AllCheckbox" value="option1"> 所有
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="OthersCheckbox" value="option2"> 其他
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="StarsCheckbox3" value="option3"> 3星级
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="StarsCheckbox4" value="option4"> 4星级
-                </label>
-                <label class="checkbox-inline">
-                    <input type="checkbox" id="StarsCheckbox5" value="option5"> 5星级
-                </label>
-            </div>
-            <div class="four clearfix">
-                <span>价格</span>
-                <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions" value="All"> 所有
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions" value="$Below 150"> 150以下
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions" value="$151-300"> $151-300
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions" value="$301-600"> $301-600
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions" value="$601+"> $601+
-                </label>
-                <div class="rate">
-                    <input type="text" class="form-control">
-                    <span>至</span>
-                    <input type="text" class="form-control">
+    <div class="hotel-list-container">
+        <div class="hotel-row">
+            <div>
+                <div class="hotel-item">
+                    <div>
+                        <div class="hotel-image"><img src="images/2.jpg"></div>
+                        <div class="stars">
+                            <span>星级:</span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="hotel-name">大连华美达</div>
+                        <div class="hotel-address">大连胜利广场18号</div>
+                        <div class="hotel-price"><span>价格</span><span>450.00 CNY+</span></div>
+                        <div class="hotel-order-container">
+                            <div class="hotel-map"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
+                            <div class="pre-order">
+                                <div class="pre-order-button">预订</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="icons/xieyi.png" class="hotel-tag">
                 </div>
             </div>
-            <div class="five clearfix">
-                <div class="input"><label>地址</label><input type="text" class="form-control" placeholder=""></div>
-                <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions1" value="Unlimited"> 不限制
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions1" value="500m"> 500m
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions1" value="2km"> 2km
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="inlineRadioOptions1" value="5km"> 5km
-                </label>
-                <button type="button" class="btn btn-primary">搜索</button>
+            <div>
+                <div class="hotel-item">
+                    <div>
+                        <div class="hotel-image"><img src="images/51929.jpg"></div>
+                        <div class="stars">
+                            <span>星级:</span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="hotel-name">大连威斯汀</div>
+                        <div class="hotel-address">大连大连东港新区长江路</div>
+                        <div class="hotel-price"><span>价格</span><span>550.00 CNY+</span></div>
+                        <div class="hotel-order-container">
+                            <div class="hotel-map"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
+                            <div class="pre-order">
+                                <div class="pre-order-button">预订</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="icons/xieyi.png" class="hotel-tag">
+                </div>
+            </div>
+            <div>
+                <div class="hotel-item">
+                    <div>
+                        <div class="hotel-image"><img src="images/174.jpg"></div>
+                        <div class="stars">
+                            <span>星级:</span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="hotel-name">大连香格里拉</div>
+                        <div class="hotel-address">大连人民路66号</div>
+                        <div class="hotel-price"><span>价格</span><span>560.00 CNY+</span></div>
+                        <div class="hotel-order-container">
+                            <div class="hotel-map"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
+                            <div class="pre-order">
+                                <div class="pre-order-button">预订</div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="icons/xieyi.png" class="hotel-tag">
+                </div>
             </div>
         </div>
-        <div class="corporate-hotel">
-            <div class="top" style="display:none"><span>协议酒店</span></div>
-            <div class="lists">
-                <div class="title clearfix">
-                    <span class="text">26家酒店</span>
-                    <button type="button" class="btn btn-success">星级<span class="caret"></span></button>
-                    <button type="button" class="btn btn-primary">价格<span class="caret"></span></button>
-                    <span class="glyphicon glyphicon-user text-btn">Foreign Nationals</span>
-                    <span class="glyphicon glyphicon-user text-btn">Mainland Chinese Nationals</span>
-                </div>
-                <div class="list">
-                    <span class="num">1</span>
-                    <div class="item">
-                        <div class="one">
-                            <div class="img-wrap"><span class="tag"></span><img src="images/2.jpg"></div>
-                            <div class="text">
-                                <h2>大连华美达<span>协议酒店</span></h2>
-                                <p>大连胜利广场18号</p>
-                                <div class="address"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
-                            </div>
-                            <div class="rate">价格 <b>450.00 CNY+</b></div>
+        <div class="hotel-row">
+            <div>
+                <div class="hotel-item">
+                    <div>
+                        <div class="hotel-image"><img src="images/2.jpg"></div>
+                        <div class="stars">
+                            <span>星级:</span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
                         </div>
-                        <div class="two clearfix">
-                            <div class="stars">
-                                <span class="text">星级:</span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                            </div>
-                            <div class="btn-line">
-                                <button type="button" class="btn btn-primary">选择</button>
-                                <button type="button" class="btn btn-primary">查看</button>
+                    </div>
+                    <div>
+                        <div class="hotel-name">大连华美达</div>
+                        <div class="hotel-address">大连胜利广场18号</div>
+                        <div class="hotel-price"><span>价格</span><span>450.00 CNY+</span></div>
+                        <div class="hotel-order-container">
+                            <div class="hotel-map"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
+                            <div class="pre-order">
+                                <div class="pre-order-button">预订</div>
                             </div>
                         </div>
                     </div>
+                    <img src="icons/xieyi.png" class="hotel-tag">
                 </div>
-                <div class="list">
-                    <span class="num">2</span>
-                    <div class="item">
-                        <div class="one">
-                            <div class="img-wrap"><img src="images/51929.jpg"></div>
-                            <div class="text">
-                                <h2>大连威斯汀<span>协议酒店</span></h2>
-                                <p>大连大连东港新区长江路</p>
-                                <div class="address"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
-                            </div>
-                            <div class="rate">价格 <b>550.00 CNY+</b></div>
+            </div>
+            <div>
+                <div class="hotel-item">
+                    <div>
+                        <div class="hotel-image"><img src="images/51929.jpg"></div>
+                        <div class="stars">
+                            <span>星级:</span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
                         </div>
-                        <div class="two clearfix">
-                            <div class="stars">
-                                <span class="text">星级:</span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                            </div>
-                            <div class="btn-line">
-                                <button type="button" class="btn btn-primary">选择</button>
-                                <button type="button" class="btn btn-primary">查看</button>
+                    </div>
+                    <div>
+                        <div class="hotel-name">大连威斯汀</div>
+                        <div class="hotel-address">大连大连东港新区长江路</div>
+                        <div class="hotel-price"><span>价格</span><span>550.00 CNY+</span></div>
+                        <div class="hotel-order-container">
+                            <div class="hotel-map"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
+                            <div class="pre-order">
+                                <div class="pre-order-button">预订</div>
                             </div>
                         </div>
                     </div>
+                    <img src="icons/xieyi.png" class="hotel-tag">
                 </div>
-                <div class="list">
-                    <span class="num">3</span>
-                    <div class="item">
-                        <div class="one">
-                            <div class="img-wrap"><img src="images/174.jpg"></div>
-                            <div class="text">
-                                <h2>大连香格里拉<span>协议酒店</span></h2>
-                                <p>大连人民路66号</p>
-                                <div class="address"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
-                            </div>
-                            <div class="rate">价格 <b>560.00 CNY+</b></div>
+            </div>
+            <div>
+                <div class="hotel-item">
+                    <div>
+                        <div class="hotel-image"><img src="images/174.jpg"></div>
+                        <div class="stars">
+                            <span>星级:</span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
                         </div>
-                        <div class="two clearfix">
-                            <div class="stars">
-                                <span class="text">星级:</span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                                <span class="glyphicon glyphicon-star"></span>
-                            </div>
-                            <div class="btn-line">
-                                <button type="button" class="btn btn-primary">选择</button>
-                                <button type="button" class="btn btn-primary">查看</button>
+                    </div>
+                    <div>
+                        <div class="hotel-name">大连香格里拉</div>
+                        <div class="hotel-address">大连人民路66号</div>
+                        <div class="hotel-price"><span>价格</span><span>560.00 CNY+</span></div>
+                        <div class="hotel-order-container">
+                            <div class="hotel-map"><span class="glyphicon glyphicon-map-marker"></span>地图</div>
+                            <div class="pre-order">
+                                <div class="pre-order-button">预订</div>
                             </div>
                         </div>
                     </div>
+                    <img src="icons/xieyi.png" class="hotel-tag">
                 </div>
-                <div class="list">
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination">
-                            <li>
-                                <a href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                </a>
-                            </li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li>
-                                <a href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
+            </div>
+        </div>
+        <div class="pager">
+            <div>共 11 页</div>
+            <div>
+                <nav aria-label="Page navigation">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li><a href="#"><span>1</span></a></li>
+                        <li><a href="#"><span class="selected">2</span></a></li>
+                        <li><a href="#"><span>3</span></a></li>
+                        <li><a href="#"><span>4</span></a></li>
+                        <li><a href="#"><span>5</span></a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
-
 </div>
