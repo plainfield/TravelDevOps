@@ -53,18 +53,18 @@
     </div>
     <div class="hotel-search-container hidden" id="hotel-search">
         <div class="trip-type">
-            <input type="radio" name="hotelType" checked="checked"><span>单程</span>
-            <input type="radio" name="hotelType"><span>往返</span>
+            <input type="radio" name="hotelType" checked="checked" value="1"><span>协议酒店</span>
+            <input type="radio" name="hotelType" value="2"><span>非协议酒店</span>
         </div>
         <div class="fly-search-info">
             <div class="fly-location">
                 <div class="search-input selected">
-                    <label>从</label>
-                    <input type="text" class="form-control selected" value="武汉">
+                    <label>城市</label>
+                    <input type="text" class="form-control selected" value="大连">
                 </div>
                 <div class="search-input">
-                    <label>到</label>
-                    <input type="text" class="form-control" value="">
+                    <label>名称</label>
+                    <input type="text" class="form-control" value="华美达酒店">
                 </div>
             </div>
             <div class="switch-location">
@@ -73,25 +73,28 @@
             <div class="ticket-type">
                 <div class="search-input selected">
                     <select class="form-control selected">
-                        <option selected>国内</option>
-                        <option>国际</option>
+                        <option selected>5星级</option>
+                        <option>4星级</option>
+                        <option>3星级</option>
                     </select>
                 </div>
                 <div class="search-input">
                     <select class="form-control">
-                        <option selected>经济舱</option>
+                        <option selected>$601+</option>
+                        <option>$301-600</option>
+                        <option>$151-300</option>
                     </select>
                 </div>
             </div>
         </div>
         <div class="select-time">
             <div class="search-input selected">
-                <label>出发</label>
+                <label>入住</label>
                 <input type="text" class="form-control selected" value="2017-05-17">
             </div>
             <div class="search-input">
-                <label>返回</label>
-                <input type="text" class="form-control" value="">
+                <label>退房</label>
+                <input type="text" class="form-control" value="2017-05-18">
             </div>
         </div>
         <div class="search-button">搜索</div>
