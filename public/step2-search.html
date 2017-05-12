@@ -3,13 +3,58 @@
         武汉-->大连 起程:2017-05-17
     </div>
     <div class="search-type-container">
-        <div class="selected">机票预订</div>
-        <div>酒店预订</div>
+        <div class="selected" id="fly-order-nav">机票预订</div>
+        <div id="hotel-order-nav">酒店预订</div>
     </div>
     <div class="fly-search">
         <div class="trip-type">
             <input type="radio" name="tripType" checked="checked"><span>单程</span>
             <input type="radio" name="tripType"><span>往返</span>
+        </div>
+        <div class="fly-search-info">
+            <div class="fly-location">
+                <div class="search-input selected">
+                    <label>从</label>
+                    <input type="text" class="form-control selected" value="武汉">
+                </div>
+                <div class="search-input">
+                    <label>到</label>
+                    <input type="text" class="form-control" value="">
+                </div>
+            </div>
+            <div class="switch-location">
+
+            </div>
+            <div class="ticket-type">
+                <div class="search-input selected">
+                    <select class="form-control selected">
+                        <option selected>国内</option>
+                        <option>国际</option>
+                    </select>
+                </div>
+                <div class="search-input">
+                    <select class="form-control">
+                        <option selected>经济舱</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="select-time">
+            <div class="search-input selected">
+                <label>出发</label>
+                <input type="text" class="form-control selected" value="2017-05-17">
+            </div>
+            <div class="search-input">
+                <label>返回</label>
+                <input type="text" class="form-control" value="">
+            </div>
+        </div>
+        <div class="search-button">搜索</div>
+    </div>
+    <div class="hotel-search hidden" >
+        <div class="trip-type">
+            <input type="radio" name="hotelType" checked="checked"><span>单程</span>
+            <input type="radio" name="hotelType"><span>往返</span>
         </div>
         <div class="fly-search-info">
             <div class="fly-location">

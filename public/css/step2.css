@@ -12,3 +12,7 @@
 .step2-suggestion-container {
     width: calc(60% - 20px);
 }
+
+.hotel-list {
+    margin-top: 30px;
+}
