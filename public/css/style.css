@@ -818,9 +818,13 @@ ul.pagination{
 }
 
 .navbar-fixed-top{
-	background: #222 url(../images/top-banner.jpeg) no-repeat fixed top;
-	height:100px !important;
-	background-size:100% 100px; 
+	background: #222 url(../icons/topbg.png) center top no-repeat;
+	background-size: 100% 112px;
+	height: 112px;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left: 0;
 }
 
 #mycon{
@@ -830,3 +834,135 @@ ul.pagination{
 .navbar-header{
 	margin-top:20px;
 }
+.wizard-inner{
+	float: left;
+	margin-top: 40px;
+	position: relative;
+}
+.wizard-inner .nav-tabs{
+	border-bottom:none;
+}
+.navbar a.logo{
+	width: 200px;
+	height: 50px;
+	float: left;
+	display: inline-block;
+	margin-top: 30px;
+}
+.navbar .logo img{
+	width: 100%;
+}
+.navbar .user{
+	float: right;
+	margin-top: 20px;
+}
+.icon-login{
+	float: right;
+	background: url("../icons/login.png") no-repeat;
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	display: inline-block;
+	margin-right: 10px;
+}
+.icon-register{
+	float: right;
+	background: url("../icons/regist.png") no-repeat;
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	display: inline-block;
+}
+.plane-line{
+	background: url("../icons/plane.png") no-repeat;
+	width:150px; 
+	height: 15px;
+	background-size: contain;
+	position: absolute;
+}
+.plane-line.one{
+	left: 135px;
+	top: 9px;
+}
+.plane-line.two{
+	left:415px;
+	top: 9px;
+	display: none;
+}
+.icon-Hotel{
+	width: 30px;
+	height: 30px;
+	background: url("../icons/icon-011.png") no-repeat;
+	display: inline-block;
+	background-size: 30px 30px;
+}
+.active .icon-Hotel{
+	background: url("../icons/icon-01.png") no-repeat;
+	background-size: 30px 30px;
+}
+.icon-destination{
+	width: 30px;
+	height: 30px;
+	background: url("../icons/icon-022.png") no-repeat;
+	display: inline-block;
+	background-size: 30px 30px;
+}
+.active .icon-destination{
+	background: url("../icons/icon-02.png") no-repeat;
+	background-size: 30px 30px;
+}
+.icon-fee{
+	width: 30px;
+	height: 30px;
+	background: url("../icons/icon-033.png") no-repeat;
+	display: inline-block;
+	background-size: 30px 30px;
+}
+.active .icon-fee{
+	background: url("../icons/icon-03.png") no-repeat;
+	background-size: 30px 30px;
+}
+.wizard-inner .nav-tabs > li{
+	margin-left: 20px;
+	margin-right: 140px;
+}
+
+.wizard-inner .nav-tabs > li>a{
+	border:none; 
+	background: none;
+	border: none;
+	color: #57fef5;
+	font-size: 16px;
+	position: relative;
+	padding:0;
+	padding-left: 40px;
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+}
+.wizard-inner .nav-tabs > li>a span{
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.wizard-inner .nav-tabs > li>a:hover{
+	background: none;
+}
+.wizard-inner .nav-tabs > li.active > a,.wizard-inner .nav-tabs > li.active > a:hover,.wizard-inner .nav-tabs > li.active > a:focus{
+	background: none;
+	border: none;
+	color: #f8ae77;
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+

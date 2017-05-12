@@ -22,46 +22,41 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">IBM BlueEye</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <div style="right:80px;top:30px;position:absolute;color:#999">毛志勇，上午好! &nbsp;|&nbsp; <a href="#">注销</a></div>
-        </div><!--/.navbar-collapse -->
-      </div>
-    </nav>
-
-<div class="container" id="mycon">
-	<div class="row">
-		<section>
-        <div class="wizard">
-            <div class="wizard-inner">
-                <div class="connecting-line"></div>
-                <ul class="nav nav-tabs" role="tablist">
+        <a class="logo" href="#"><img src="icons/logo.png"></a>
+           <div class="wizard-inner">
+           		<div class="plane-line one"></div>
+           		<div class="plane-line two"></div>
+                <ul class="nav nav-tabs clearfix" role="tablist" id="tabList">
                     <li role="presentation" class="active">
                         <a href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="酒店机票">
-                            <span class="round-tab">
-                                <i class="glyphicon glyphicon-globe"></i>
-                            </span>
+                            <span class="icon-Hotel"></span>机票 酒店
                         </a>
                     </li>
                     <li role="presentation">
                         <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="到达目的地">
-                            <span class="round-tab">
-                                <i class="glyphicon glyphicon-phone"></i>
-                            </span>
+                        	<span class="icon-destination"></span>达到目的地
                         </a>
                     </li>
 
                     <li role="presentation">
                         <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="报销">
-                            <span class="round-tab">
-                                <i class="glyphicon glyphicon-usd"></i>
-                            </span>
+                       		<span class="icon-fee"></span>费用报销
                         </a>
                     </li>
                 </ul>
             </div>
+            <div class="user">
+            	<span class="icon-register"></span>
+            	<span class="icon-login"></span>
+            </div>
+      </div>
+    </nav>
 
+<div class="container" id="mycon" style="padding-top: 60px;">
+	<div class="row">
+		<section>
+        <div class="wizard">
             <form role="form">
                 <div class="tab-content">
                     <div class="tab-pane active" role="tabpanel" id="step2">
@@ -142,6 +137,11 @@ function plusclick1(){
 		iSelector.attr('src','images/plus.png');
 	}
 };
-
+$('#tabList li:eq(1)').on('click',function(){
+	$(".plane-line.two").show();
+});
+$('#tabList li:eq(0)').on('click',function(){
+	$(".plane-line.two").hide();
+}) 
 </script>
 </html>

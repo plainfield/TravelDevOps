@@ -1,282 +1,312 @@
-
-				<form>
-				<div >
-					<div class="col-sm-7 pr50" >
-						<ul style="margin-top:-10px;vertical-align:top" class="nav nav-tabs" role="tablist">
-								<li role="presentation"  class="active">
-						          <a href="#SSRSkillsTab" data-toggle="tab" aria-controls="SSRSkillsTab"  role="tab" title="User Information">
-                            <span class="round-tab">
-                                <i class="glyphicon glyphicon-user"></i>
-                            </span>
-                        </a>
-                </li>
- 								<li role="presentation">
-						          <a href="#customerAccountTab" data-toggle="tab" aria-controls="customerAccountTab"  role="tab" title="Request Information">
-                            <span class="round-tab">
-                                <i class="glyphicon glyphicon-th-list"></i>
-                            </span>
-                        </a>
-                </li>
-  							<li role="presentation">
-						          <a href="#unCustomerAccountTab" data-toggle="tab" aria-controls="unCustomerAccountTab"  role="tab" title="Expense Information">
-                            <span class="round-tab">
-                                <i class="glyphicon glyphicon-euro"></i>
-                            </span>
-                        </a>
-                </li>
-  							<li role="presentation">
-						          <a href="#approverInfoTab" data-toggle="tab" aria-controls="approverInfoTab"  role="tab" title="Approver Information">
-                            <span class="round-tab">
-                                <i class="glyphicon glyphicon-saved"></i>
-                            </span>
-                        </a>
-                </li>                
-						 </ul>
-						 <div class="tab-content">
-							<div role="tabpanel" class="tab-pane active" id="SSRSkillsTab">
-				      		<br>
-							<dl class="skill-box">
-								<dt>
-								<div class="form-horizontal">
-								  <div class="form-group">
-								    <label class="col-sm-3 control-label">Approval Requested for:</label>
-								    <div class="col-sm-9">
-								    	<input class="form-control" type="text" value="Zhi Yong Mao/China/IBM">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-3 control-label">Organization:</label>
-								    <div class="col-sm-9">
-									    <select class="form-control">
-									    	<option>HR</option>
-									    	<option>TSS</option>
-									    	<option>CPC</option>
-									    	<option selected>GBS-IBM Account</option>
-									    </select>
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-3 control-label">Status:</label>
-								    <div class="col-sm-9">
-								    	<input class="form-control" type="text" value="New" disabled="disabled">
-								    </div>
-								  </div>
-									  </div>
-								</dt>
-							
-							</dl>
-
-				    </div>
-				    <div role="tabpanel" class="tab-pane" id="customerAccountTab">
-				   		<br>
-
-							<dl class="skill-box">
-								<dt>
-									<div class="form-horizontal">
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Request Title:</label>
-								    <div class="col-sm-8">
-								    <input maxlength="50" type="text"  class="form-control" value="DevOps workshop">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Project Code:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="CN-16-08427">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Funding Manager:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="Zhi Yong Mao/China/IBM">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Work Location:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="Shanghai">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Approval Flow:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="Domestic Project Funded Trip">
-								    </div>
-								  </div>
-								  </div>
-								</dt>
-							
-							</dl>
-
-				    </div>
-				    <div role="tabpanel" class="tab-pane" id="unCustomerAccountTab">
-				   		<br>
-
-							<dl class="skill-box">
-								<dt>
-									<div class="form-horizontal">
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Expense Description:</label>
-								    <div class="col-sm-8">
-								    <input maxlength="50" type="text"  class="form-control" value="need travel to Beijing for DevOps workshop">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Detailed Business Justification:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="need travel to Beijing for DevOps workshop">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Impact Statement:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="need do presentation for Boss">
-								    </div>
-								  </div>
-								  </div>
-								</dt>
-							
-							</dl>
-
-							<table class="table table-hover text-center">
-								<thead>
-									<tr>
-										<th>Year</th>
-										<th>Q1 Amount</th>
-										<th>Q2 Amount</th>
-										<th>Q3 Amount</th>
-										<th>Q4 Amount</th>
-										<th>Year Total</th>
-									</tr>
-								</thead>
-								<tbody>
-										<tr>
-											<td>2017</td>
-											<td><input type="text"  class="form-control" maxlength="50"></td>
-											<td><input type="text"  class="form-control" maxlength="50" value="1440"></td>
-											<td><input type="text"  class="form-control" maxlength="50"></td>
-											<td><input type="text"  class="form-control" maxlength="50"></td>
-											<td>1440.00</td>
-										</tr>
-										<tr>
-											<td>2018</td>
-											<td><input type="text"  class="form-control" maxlength="50"></td>
-											<td><input type="text"  class="form-control" maxlength="50"></td>
-											<td><input type="text"  class="form-control" maxlength="50"></td>
-											<td><input type="text"  class="form-control" maxlength="50"></td>
-											<td>0.00</td>
-										</tr>
-								</tbody>
-							</table>
-				    </div>
-				    
-				    <div role="tabpanel" class="tab-pane" id="approverInfoTab">
-				      		<br>
-							<dl class="skill-box">
-								<dt>
-								<div class="form-horizontal">
-								  <div class="form-group">
-								    <label class="col-sm-3 control-label">Current Approver name:</label>
-								    <div class="col-sm-9">
-								    	<input class="form-control" type="text" value="Zhi Yong Mao/China/IBM">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-3 control-label">Future Approver name:</label>
-								    <div class="col-sm-9">
-								    	<input class="form-control" type="text" value="Mohamed El Refai/China/IBM">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-3 control-label">Comments:</label>
-								    <div class="col-sm-9">
-								    	<input class="form-control" type="text" value="It is a great event!">
-								    </div>
-								  </div>
-									  </div>
-								</dt>
-							
-							</dl>
-
-				    </div>
-						</div>
-						
-					</div>
-					<div class="col-sm-5 s-border ">
-						  <br>
-						<div class="row">
-							<div  style="margin-top:-10px;vertical-align:top" class="col-sm-12">
-								<h4>Travel Requested (From where To where):</h4>
-								<table class="table table-hover text-center">
-								<thead>
-									<tr>
-										<th>From</th>
-										<th>To</th>
-									</tr>
-								</thead>
-								<tbody>
-										<tr>
-											<td><input type="text"  class="form-control" maxlength="50" value="Shanghai"></td>
-											<td><input type="text"  class="form-control" maxlength="50" value="Beijing"></td>
-										</tr>
-								</tbody>
-							</table>
-							<h5>Dates of Travel:</h5>
-								<table class="table table-hover text-center">
-								<thead>
-									<tr>
-										<th>Depart Date</th>
-										<th>Return Date</th>
-									</tr>
-								</thead>
-								<tbody>
-										<tr>
-											<td><input type="text"  class="form-control" maxlength="50" value="2017/05/17"></td>
-											<td><input type="text"  class="form-control" maxlength="50" value="2017/05/19"></td>
-										</tr>
-								</tbody>
-							</table>
-								<div class="form-horizontal">
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Travel Type:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="Domestic Travel">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Means of Transportation:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="Airplane">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Estimated Air Expense:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="240">
-								    </div>
-								  </div>
-								  <div class="form-group">
-								    <label class="col-sm-4 control-label">Estimated Hotel Expense:</label>
-								    <div class="col-sm-8">
-								    	<input type="text"  class="form-control" maxlength="50" value="900">
-								    </div>
-								  </div>
-									<div class="form-group">
-								    <label class="col-sm-4 control-label">Estimated Other Expense:</label>
-								    <div class="col-sm-8">
-								     <input type="text"  class="form-control" maxlength="50" value="300">
-								    </div>
-								  </div>
+<form>
+	<div>
+		<div class="col-sm-7 pr50">
+			<ul style="margin-top: -10px; vertical-align: top"
+				class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#SSRSkillsTab"
+					data-toggle="tab" aria-controls="SSRSkillsTab" role="tab"
+					title="User Information"><span class="round-tab"> <i
+							class="glyphicon glyphicon-user"></i>
+					</span>
+				</a></li>
+				<li role="presentation"><a href="#customerAccountTab"
+					data-toggle="tab" aria-controls="customerAccountTab" role="tab"
+					title="Request Information"> <span class="round-tab"> <i
+							class="glyphicon glyphicon-th-list"></i>
+					</span>
+				</a></li>
+				<li role="presentation"><a href="#unCustomerAccountTab"
+					data-toggle="tab" aria-controls="unCustomerAccountTab" role="tab"
+					title="Expense Information"> <span class="round-tab"> <i
+							class="glyphicon glyphicon-euro"></i>
+					</span>
+				</a></li>
+				<li role="presentation"><a href="#approverInfoTab"
+					data-toggle="tab" aria-controls="approverInfoTab" role="tab"
+					title="Approver Information"> <span class="round-tab"> <i
+							class="glyphicon glyphicon-saved"></i>
+					</span>
+				</a></li>
+			</ul>
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="SSRSkillsTab">
+					<br>
+					<dl class="skill-box">
+						<dt>
+							<div class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Approval
+										Requested for:</label>
+									<div class="col-sm-9">
+										<input class="form-control" type="text"
+											value="Zhi Yong Mao/China/IBM">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Organization:</label>
+									<div class="col-sm-9">
+										<select class="form-control">
+											<option>HR</option>
+											<option>TSS</option>
+											<option>CPC</option>
+											<option selected>GBS-IBM Account</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Status:</label>
+									<div class="col-sm-9">
+										<input class="form-control" type="text" value="New"
+											disabled="disabled">
+									</div>
 								</div>
 							</div>
+						</dt>
 
+					</dl>
 
-						</div><!-- end of row -->
+				</div>
+				<div role="tabpanel" class="tab-pane" id="customerAccountTab">
+					<br>
+
+					<dl class="skill-box">
+						<dt>
+							<div class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-4 control-label">Request Title:</label>
+									<div class="col-sm-8">
+										<input maxlength="50" type="text" class="form-control"
+											value="DevOps workshop">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-4 control-label">Project Code:</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" maxlength="50"
+											value="CN-16-08427">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-4 control-label">Funding Manager:</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" maxlength="50"
+											value="Zhi Yong Mao/China/IBM">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-4 control-label">Work Location:</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" maxlength="50"
+											value="Shanghai">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-4 control-label">Approval Flow:</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" maxlength="50"
+											value="Domestic Project Funded Trip">
+									</div>
+								</div>
+							</div>
+						</dt>
+
+					</dl>
+
+				</div>
+				<div role="tabpanel" class="tab-pane" id="unCustomerAccountTab">
+					<br>
+
+					<dl class="skill-box">
+						<dt>
+							<div class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-4 control-label">Expense
+										Description:</label>
+									<div class="col-sm-8">
+										<input maxlength="50" type="text" class="form-control"
+											value="need travel to Beijing for DevOps workshop">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-4 control-label">Detailed Business
+										Justification:</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" maxlength="50"
+											value="need travel to Beijing for DevOps workshop">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-4 control-label">Impact Statement:</label>
+									<div class="col-sm-8">
+										<input type="text" class="form-control" maxlength="50"
+											value="need do presentation for Boss">
+									</div>
+								</div>
+							</div>
+						</dt>
+
+					</dl>
+
+					<table class="table table-hover text-center">
+						<thead>
+							<tr>
+								<th>Year</th>
+								<th>Q1 Amount</th>
+								<th>Q2 Amount</th>
+								<th>Q3 Amount</th>
+								<th>Q4 Amount</th>
+								<th>Year Total</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>2017</td>
+								<td><input type="text" class="form-control" maxlength="50"></td>
+								<td><input type="text" class="form-control" maxlength="50"
+									value="1440"></td>
+								<td><input type="text" class="form-control" maxlength="50"></td>
+								<td><input type="text" class="form-control" maxlength="50"></td>
+								<td>1440.00</td>
+							</tr>
+							<tr>
+								<td>2018</td>
+								<td><input type="text" class="form-control" maxlength="50"></td>
+								<td><input type="text" class="form-control" maxlength="50"></td>
+								<td><input type="text" class="form-control" maxlength="50"></td>
+								<td><input type="text" class="form-control" maxlength="50"></td>
+								<td>0.00</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div role="tabpanel" class="tab-pane" id="approverInfoTab">
+					<br>
+					<dl class="skill-box">
+						<dt>
+							<div class="form-horizontal">
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Current Approver
+										name:</label>
+									<div class="col-sm-9">
+										<input class="form-control" type="text"
+											value="Zhi Yong Mao/China/IBM">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Future Approver
+										name:</label>
+									<div class="col-sm-9">
+										<input class="form-control" type="text"
+											value="Mohamed El Refai/China/IBM">
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-sm-3 control-label">Comments:</label>
+									<div class="col-sm-9">
+										<input class="form-control" type="text"
+											value="It is a great event!">
+									</div>
+								</div>
+							</div>
+						</dt>
+
+					</dl>
+
+				</div>
+			</div>
+
+		</div>
+		<div class="col-sm-5 s-border ">
+			<br>
+			<div class="row">
+				<div style="margin-top: -10px; vertical-align: top"
+					class="col-sm-12">
+					<h4>Travel Requested (From where To where):</h4>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr>
+								<th>From</th>
+								<th>To</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="text" class="form-control" maxlength="50"
+									value="Shanghai"></td>
+								<td><input type="text" class="form-control" maxlength="50"
+									value="Beijing"></td>
+							</tr>
+						</tbody>
+					</table>
+					<h5>Dates of Travel:</h5>
+					<table class="table table-hover text-center">
+						<thead>
+							<tr>
+								<th>Depart Date</th>
+								<th>Return Date</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="text" class="form-control" maxlength="50"
+									value="2017/05/17"></td>
+								<td><input type="text" class="form-control" maxlength="50"
+									value="2017/05/19"></td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="form-horizontal">
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Travel Type:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" maxlength="50"
+									value="Domestic Travel">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Means of
+								Transportation:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" maxlength="50"
+									value="Airplane">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Estimated Air
+								Expense:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" maxlength="50"
+									value="240">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Estimated Hotel
+								Expense:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" maxlength="50"
+									value="900">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="col-sm-4 control-label">Estimated Other
+								Expense:</label>
+							<div class="col-sm-8">
+								<input type="text" class="form-control" maxlength="50"
+									value="300">
+							</div>
+						</div>
 					</div>
+				</div>
 
-				</div> <!-- end of row -->
-				<br>
-	   			</form>
-               
-                        
- 
+
+			</div>
+			<!-- end of row -->
+		</div>
+
+	</div>
+	<!-- end of row -->
+	<br>
+</form>
+
+
