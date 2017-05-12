@@ -12,11 +12,9 @@
     <link rel="stylesheet" href="css/step2.css">
     <link rel="stylesheet" href="css/step2-search.css">
     <link rel="stylesheet" href="css/hotel-list.css">
+    <link rel="stylesheet" href="css/step2_suggest.css">
     <script src="js/bootstrap.min.js"></script>
     <script src="travel.js"></script>
-    <link rel="stylesheet" href="css/step2_suggest.css">
-<script src="js/bootstrap.min.js"></script>
-<script src="travel.js"></script>
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -125,6 +123,21 @@
         $('#menu-toggle1').on('click', function () {
             plusclick1();
         });
+
+        $("#fly-order-nav").click(function (e){
+            $("#fly-order-nav").addClass("selected");
+            $("#hotel-order-nav").removeClass("selected");
+            $("#fly-search").removeClass("hidden");
+            $("#hotel-search").addClass("hidden");
+        });
+
+        $("#hotel-order-nav").click(function (e){
+            $("#hotel-order-nav").addClass("selected");
+            $("#fly-order-nav").removeClass("selected");
+            $("#fly-search").addClass("hidden");
+            $("#hotel-search").removeClass("hidden");
+        });
+
     }, 1000);
 
     function plusclick() {
