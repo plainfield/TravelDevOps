@@ -1,0 +1,169 @@
+.hotel-list-container {
+}
+
+.hotel-list-title > img {
+    width: 30px;
+}
+
+.hotel-list-title > span {
+    color: #1878d2;
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hotel-row {
+    overflow: auto;
+}
+
+.hotel-row > div{
+    float: left;
+    width: 33%;
+}
+
+.hotel-item {
+    margin: 10px;
+    border: 1px solid #00e1ff;
+    overflow: auto;
+    position: relative;
+}
+
+.hotel-tag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+}
+
+.hotel-item > div {
+    float: left;
+    padding: 20px 0;
+}
+
+.hotel-item > div:first-child {
+    float: left;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.hotel-image {
+    border: 1px solid #ffffff;
+}
+
+.hotel-image > img{
+    width: 150px;
+    height: 120px;
+}
+
+.stars {
+    margin-top: 10px;
+}
+
+.stars > span {
+    top: 2px;
+}
+
+.glyphicon-star {
+    color: gold;
+}
+
+.hotel-name {
+    color: #00e1ff;
+    font-size: 20px;
+}
+
+.hotel-address {
+    color: #fdefcc;
+    font-size: 13px;
+    margin: 3px 0;
+}
+
+.hotel-price {
+    margin: 3px 0;
+}
+
+.hotel-price > span {
+    font-size: 13px;
+}
+
+.hotel-price > span:first-child {
+    color: #fdefcc;
+    padding-right: 10px;
+}
+
+.hotel-price > span:last-child {
+    color: #eb592c;
+}
+
+.hotel-order-container {
+    margin-top: 30px;
+}
+
+.hotel-map {
+    margin-right: 10px;
+}
+
+.hotel-map > span {
+    top: 2px;
+}
+
+.hotel-map .glyphicon-map-marker {
+    color: #1878d2;
+}
+
+.hotel-order-container {
+    overflow: auto;
+}
+
+.hotel-order-container > div {
+    float: left;
+}
+
+.pre-order-button {
+    background-color: #00e1ff;
+    color: #000e2a;
+    padding: 0 20px;
+}
+
+.pager > nav {
+    text-align: right;
+}
+
+.pagination > li > a {
+    border-radius: 0;
+    border: none;
+    color: #9b9b9b;
+    background-color: transparent !important;
+    margin: 0 3px;
+    padding: 5px;
+}
+
+.pagination > li > a > span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 16px;
+    border-radius: 8px;
+}
+
+.pagination > li > a > span.selected {
+    background: red;
+    color: #000;
+}
+
+.pager {
+    margin-right: 10px;
+}
+
+.pager > div {
+    float: right;
+}
+
+.pager > div:first-child {
+    height: 26px;
+    line-height: 26px;
+    vertical-align: middle;
+}

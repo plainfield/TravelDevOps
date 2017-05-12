@@ -1,0 +1,97 @@
+.trip-start-info {
+    font-size: 12px;
+    color: #111111;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.search-type-container {
+    overflow: auto;
+    border-bottom: 1px solid #1878d2;
+}
+
+.search-type-container > div {
+    float: left;
+    font-size: 18px;
+    color: #1878d2;
+    margin: 0 20px 0 10px;
+}
+
+.search-type-container > div.selected {
+    border-bottom: 2px solid #1878d2;
+}
+
+.trip-type {
+    margin: 10px;
+}
+
+.trip-type > span {
+    padding: 0 20px 0 5px;
+    font-size: 12px;
+    color: #111111;
+}
+
+.fly-search-info {
+    overflow: auto;
+}
+
+.fly-search-info > div {
+    float: left;
+}
+
+.search-input {
+    border: 1px solid #0065c2;
+    margin: 10px;
+}
+
+.search-input.selected {
+    background-color: #0065c2;
+}
+
+.search-input > label, .search-input > input {
+    float: none; /* if you had floats before? otherwise inline-block will behave differently */
+    display: inline-block;
+}
+
+.search-input > label {
+    padding: 0 10px;
+    color: #9b9b9b;
+}
+
+.search-input > input.selected {
+    color: #ffffff;
+}
+
+.form-control {
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: #f3f3f3 !important;
+    width: auto;
+}
+
+.form-control.selected {
+    background-color: #0065c2 !important;
+    color: #ffffff;
+}
+
+.ticket-type .search-input {
+    width: 100px;
+}
+
+.ticket-type .search-input > select {
+    width: 100%;
+}
+
+.fly-location .search-input, .select-time .search-input {
+    width: 230px;
+}
+
+.search-button {
+    margin: 20px 10px 10px 10px;
+    background: #000e2a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}

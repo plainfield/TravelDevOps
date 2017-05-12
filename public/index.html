@@ -1,20 +1,24 @@
- <html xmlns="http://www.w3.org/1999/xhtml" lang="zh" xml:lang="zh">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh" xml:lang="zh">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>IBM BlueEye</title>
-<script src="jquery-1.10.2.js"></script>
-<script src="jquery-ui.js"></script>
-<script src="tether.min.js"></script>
-<script src="js/w3data.js"></script>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/style2.css">
-<link rel="stylesheet" href="css/bootstrap.css">
-<script src="js/bootstrap.min.js"></script>
-<script src="travel.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>IBM BlueEye</title>
+    <script src="jquery-1.10.2.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="tether.min.js"></script>
+    <script src="js/w3data.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/step2.css">
+    <link rel="stylesheet" href="css/step2-search.css">
+    <link rel="stylesheet" href="css/hotel-list.css">
+    <link rel="stylesheet" href="css/step2_suggest.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="travel.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -38,7 +42,6 @@
                         	<span class="icon-destination"></span>达到目的地
                         </a>
                     </li>
-
                     <li role="presentation">
                         <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="报销">
                        		<span class="icon-fee"></span>费用报销
@@ -92,10 +95,46 @@
                     </div>
                     <div class="clearfix"></div>
                 </div>
-            </form>
-        </div>
-    </section>
-   </div>
+
+                <form role="form">
+                    <div class="tab-content">
+                        <div class="tab-pane active" role="tabpanel" id="step2">
+                            <div w3-include-html="step2.html"></div>
+                            <ul class="list-inline pull-right">
+
+                                <li>
+                                    <button type="button" class="btn btn-primary next-step">下一步</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="step3">
+                            <h3>出差中:到达目的地</h3>
+                            您已经到达大连，可能需要下列信息：
+                            <div w3-include-html="step3.html"></div>
+                            <div style="margin-top: 400px;">
+                                <ul class="list-inline pull-right">
+                                    <li>
+                                        <button type="button" class="btn btn-primary btn-info-full next-step">下一步</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>&nbsp;&nbsp;&nbsp;</div>
+                        </div>
+                        <div class="tab-pane" role="tabpanel" id="complete">
+                            <h3>出差后:报销</h3>
+                            <div w3-include-html="step4.html"></div>
+                            <ul class="list-inline pull-right">
+                                <li>
+                                    <button type="button" class="btn btn-default prev-step">上一步</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
 </div>
 <div class="navbar navbar-default navbar-fixed-bottom" style="display:none">
     <div class="container">
@@ -105,43 +144,58 @@
 </body>
 
 <script>
-w3IncludeHTML();
-setTimeout(function(){ 
-	
-$('#menu-toggle').on('click', function(){
-	plusclick();
-});
-$('#menu-toggle1').on('click', function(){
-	plusclick1();
-});
-}, 1000);
+    w3IncludeHTML();
+    setTimeout(function () {
 
-function plusclick(){
-  var iSelector = $('#iconplus');
-	if ($(".slidingDiv").is(':hidden')){
-		$(".slidingDiv").show();
-	  iSelector.attr('src','images/minus.png');
-	} else {
-		$(".slidingDiv").hide();
-		iSelector.attr('src','images/plus.png');
-	}
-};
+        $('#menu-toggle').on('click', function () {
+            plusclick();
+        });
+        $('#menu-toggle1').on('click', function () {
+            plusclick1();
+        });
 
-function plusclick1(){
-  var iSelector = $('#iconplus1');
-	if ($(".slidingDiv1").is(':hidden')){
-		$(".slidingDiv1").show();
-	  iSelector.attr('src','images/minus.png');
-	} else {
-		$(".slidingDiv1").hide();
-		iSelector.attr('src','images/plus.png');
-	}
-};
-$('#tabList li:eq(1)').on('click',function(){
-	$(".plane-line.two").show();
-});
-$('#tabList li:eq(0)').on('click',function(){
-	$(".plane-line.two").hide();
-}) 
+        $("#fly-order-nav").click(function (e){
+            $("#fly-order-nav").addClass("selected");
+            $("#hotel-order-nav").removeClass("selected");
+            $("#fly-search").removeClass("hidden");
+            $("#hotel-search").addClass("hidden");
+        });
+
+        $("#hotel-order-nav").click(function (e){
+            $("#hotel-order-nav").addClass("selected");
+            $("#fly-order-nav").removeClass("selected");
+            $("#fly-search").addClass("hidden");
+            $("#hotel-search").removeClass("hidden");
+        });
+
+    }, 1000);
+
+    function plusclick() {
+        var iSelector = $('#iconplus');
+        if ($(".slidingDiv").is(':hidden')) {
+            $(".slidingDiv").show();
+            iSelector.attr('src', 'images/minus.png');
+        } else {
+            $(".slidingDiv").hide();
+            iSelector.attr('src', 'images/plus.png');
+        }
+    };
+
+    function plusclick1() {
+        var iSelector = $('#iconplus1');
+        if ($(".slidingDiv1").is(':hidden')) {
+            $(".slidingDiv1").show();
+            iSelector.attr('src', 'images/minus.png');
+        } else {
+            $(".slidingDiv1").hide();
+            iSelector.attr('src', 'images/plus.png');
+        }
+    };
+    $('#tabList li:eq(1)').on('click',function(){
+    	$(".plane-line.two").show();
+    });
+    $('#tabList li:eq(0)').on('click',function(){
+    	$(".plane-line.two").hide();
+    }) 
 </script>
 </html>
