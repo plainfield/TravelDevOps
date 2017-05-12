@@ -41,6 +41,42 @@ margin-left: 10px;
 .blueFont {
 		color: #1878d2;
 }
+.feeDiv {
+  width: 80%;
+  height:500px;
+	background-color: #ffffff;
+	valign:middle;
+}
+.feeTable{
+	margin-top: 50px;
+	align:center;
+	valign:middle;
+	width:80%; 	
+	height:50%;
+}
+.glyphicon1 {
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    position: relative;
+    top: 0px;
+}
+
+.feehr{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #111111;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
 .myhr{
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -49,7 +85,7 @@ margin-left: 10px;
     border-color: #111111;
     border-image: none;
     border-style: solid none none;
-    border-width: 2px 0 0;
+    border-width: 1px 0 0;
     margin-bottom: 20px;
     margin-top: 20px;
 }

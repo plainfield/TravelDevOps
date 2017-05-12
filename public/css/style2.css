@@ -11,7 +11,7 @@
 .wizard1 > div.wizard1-inner {
     position: relative;
 }
-.wizard1 .nav-tabs > li.active > a, .wizard1 .nav-tabs > li.active > a:hover, .wizard1 .nav-tabs > li.active > a:focus {
+.wizard1 > div.wizard1-inner > .nav-tabs > li.active > a, .wizard1 .nav-tabs > li.active > a:hover, .wizard1 .nav-tabs > li.active > a:focus {
     -moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
