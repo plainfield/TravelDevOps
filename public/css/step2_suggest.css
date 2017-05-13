@@ -1,12 +1,12 @@
 .suggestionDiv{
-width:800px;
-height:350px;
-vertical-align:middle;
-margin-top: 10px;
-margin-left: 10px;
+	width:800px;
+	height:370px;
+	vertical-align:middle;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 .suggestionTable{
-	width:600px;
+	width:680px;
 }
 .suggestionTable > tr > td {
     border-top: 0px solid #ddd;

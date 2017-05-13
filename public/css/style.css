@@ -4,7 +4,6 @@
 
 .wizard {
 	margin: 20px auto;
-	background: #222;
 }
 
 .wizard .nav-tabs {
@@ -173,7 +172,10 @@ span.round-tab:hover {
 body {
 	padding-bottom: 60px;
 	background-color: #222 !important; 
-	color:#999
+	color:#999;
+	background-image:url(../icons/bg.png);
+	background-size:100% 100%;
+    background-repeat:no-repeat;
 }
 /*  step 2*/
 .step2 .nav-tabs>li>a {
@@ -853,17 +855,21 @@ ul.pagination{
 	width: 100%;
 }
 .navbar .user{
-	float: right;
-	margin-top: 20px;
+	margin-top: 28px;
+	width:240px;
+	top:10px;
+	right:30px;
+	position:absolute;
 }
 .icon-login{
 	float: right;
 	background: url("../icons/login.png") no-repeat;
-	width: 30px;
 	height: 30px;
 	background-size: contain;
 	display: inline-block;
-	margin-right: 10px;
+	padding-left:36px;
+	padding-top:4px;
+	color:#999;
 }
 .icon-register{
 	float: right;
