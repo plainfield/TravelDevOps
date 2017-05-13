@@ -1,0 +1,91 @@
+.suggestionDiv{
+	width:800px;
+	height:370px;
+	vertical-align:middle;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.suggestionTable{
+	width:680px;
+}
+.suggestionTable > tr > td {
+    border-top: 0px solid #ddd;
+    padding: 8px;
+    vertical-align: middle;
+    backcolor:#ffffff;
+    color:#111111;
+    vertical-align:middle;
+}
+.suggestionTable > tbody > tr > th {
+    border-bottom: medium none !important;
+    border-top: 0 solid #666 !important;
+    vertical-align:middle;
+}
+.laba{
+		height:20px;
+		width:20px
+}
+.suggestionImg{
+		height: 80;
+		width: 80;
+}
+.notice{
+		color: #e68f4f;
+}
+.firstTitle {
+	  font-size:22px;
+}
+.ticketTitle {
+	font-size: 22px;
+}
+.blueFont {
+		color: #1878d2;
+}
+.feeDiv {
+  width: 80%;
+  height:500px;
+	background-color: #ffffff;
+	valign:middle;
+}
+.feeTable{
+	margin-top: 50px;
+	align:center;
+	valign:middle;
+	width:80%; 	
+	height:50%;
+}
+.glyphicon1 {
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    position: relative;
+    top: 0px;
+}
+
+.feehr{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #111111;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.myhr{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #111111;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}

@@ -1,0 +1,18 @@
+.step2-search-container, .step2-suggestion-container {
+    background-color: #f3f3f3;
+    float: left;
+}
+
+.step2-search-container {
+    width: 36%;
+    margin: 0 20px 0 0;
+    padding: 15px;
+}
+
+.step2-suggestion-container {
+    width: calc(64% - 20px);
+}
+
+.hotel-list {
+    margin-top: 30px;
+}
