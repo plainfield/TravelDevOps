@@ -22,6 +22,7 @@ var cfenv = require('cfenv');
 
 // create a new express server
 var app = express();
+module.exports.app = app;//for automation testing
 
 // serve the files out of ./public as our main files
 app.use(express.static(__dirname + '/public'));
